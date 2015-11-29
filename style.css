@@ -4,19 +4,21 @@
 	        box-sizing: border-box;
 }
 
+/*screen width 1644px+*/
+
 @media screen and (min-width:1644px) {
 	#video {
+		max-width: 700px;
 		width: 40%;
 		height: 400px;
 		margin: 0 auto;
 		margin-bottom: 2px;
 		background-color: rgb(200, 200, 200);
-		border: solid 1px black;
+		border: solid 1px rgb(0, 0, 0);
 	}
 
 	.buttons {
 		margin: 0 auto;
-		border: solid 1px black;
 		text-align: center;
 		width: 40%;
 
@@ -33,27 +35,66 @@
 		position: relative;
 	}
 
-	button {
+	.controls {
 		width: 200px;
 		height: 150px;
 	}
+
+	input {
+		width: 15%;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	#connect {
+		max-width: 400px;
+		width : 20%;
+		height: 80px;
+		display: block;
+		margin: 0px auto;
+		margin-top: 1px;
+	}
+
+	input {
+		width: 85%;
+		margin-right: 2px;
+		display: inline;
+		float: right;
+	}
+
+	label {
+		width: auto;
+		margin: 0px auto;
+		margin-left: 2px;
+		display: inline;
+		float: left;
+	}
+
+	#send {
+		float: right;
+		margin-top: 2px;
+		margin-right: 0px;
+		clear: right;
+	}
 }
+
+/*screen width 1280-1643px*/
 
 @media screen and (min-width:1280px) and (max-width: 1643px) {
 	#video {
+		max-width: 700px;
 		width: 50%;
 		height: 400px;
 		margin: 0 auto;
 		margin-bottom: 2px;
 		background-color: rgb(200, 200, 200);
-		border: solid 1px black;
+		border: solid 1px rgb(0, 0, 0);
 	}
 
 	.buttons {
 		margin: 0 auto;
-		border: solid 1px black;
 		text-align: center;
-		width: 50%;
+		width: 700px;
 
 	}
 
@@ -68,11 +109,43 @@
 		position: relative;
 	}
 
-	button {
+	.controls {
 		width: 200px;
 		height: 150px;
 	}
+
+	#connect {
+		width : 20%;
+		height: 80px;
+		display: block;
+		margin: 0px auto;
+		margin-top: 1px;
+	}
+
+	input {
+		width: 85%;
+		margin-right: 2px;
+		display: inline;
+		float: right;
+	}
+
+	label {
+		width: auto;
+		margin: 0px auto;
+		margin-left: 2px;
+		display: inline;
+		float: left;
+	}
+
+	#send {
+		float: right;
+		margin-top: 2px;
+		margin-right: 0px;
+		clear: right;
+	}
 }
+
+/*screen width 980-1279px*/
 
 @media screen and (min-width:980px) and (max-width: 1279px) {
 	#video {
@@ -81,15 +154,13 @@
 		margin: 0 auto;
 		margin-bottom: 2px;
 		background-color: rgb(200, 200, 200);
-		border: solid 1px black;
+		border: solid 1px rgb(0, 0, 0);
 	}
 
 	.buttons {
 		margin: 0 auto;
-		border: solid 1px black;
 		text-align: center;
-		width: 70%;
-
+		width: 800px;
 	}
 
 	ul {
@@ -103,11 +174,43 @@
 		position: relative;
 	}
 
-	button {
+	.controls {
 		width: 200px;
 		height: 150px;
 	}
+
+	#connect {
+		width : 30%;
+		height: 80px;
+		display: block;
+		margin: 0px auto;
+		margin-top: 1px;
+	}
+
+	input {
+		width: 85%;
+		margin-right: 2px;
+		display: inline;
+		float: right;
+	}
+
+	label {
+		width: auto;
+		margin: 0px auto;
+		margin-left: 2px;
+		display: inline;
+		float: left;
+	}
+
+	#send {
+		float: right;
+		margin-top: 2px;
+		margin-right: 0px;
+		clear: right;
+	}
 }
+
+/*screen width 743-979px*/
 
 @media screen and (min-width:743px) and (max-width: 979px){
 	#video {
@@ -116,14 +219,13 @@
 		margin: 0 auto;
 		margin-bottom: 2px;
 		background-color: rgb(200, 200, 200);
-		border: solid 1px black;
+		border: solid 1px rgb(0, 0, 0);
 	}
 
 	.buttons {
 		margin: 0 auto;
-		border: solid 1px black;
 		text-align: center;
-		width: 90%;
+		width: 650px;
 
 	}
 
@@ -138,11 +240,43 @@
 		position: relative;
 	}
 
-	button {
+	.controls {
 		width: 175px;
 		height: 100px;
 	}
+
+	#connect {
+		width : 50%;
+		height: 80px;
+		display: block;
+		margin: 0px auto;
+		margin-top: 1px;
+	}
+
+	input {
+		width: 85%;
+		margin-right: 2px;
+		display: inline;
+		float: right;
+	}
+
+	label {
+		width: auto;
+		margin: 0px auto;
+		margin-left: 2px;
+		display: inline;
+		float: left;
+	}
+
+	#send {
+		float: right;
+		margin-top: 2px;
+		margin-right: 0px;
+		clear: right;
+	}
 }
+
+/*screen width 600-742px*/
 
 @media screen and (min-width:600px) and (max-width: 742px){
 	#video {
@@ -151,12 +285,11 @@
 		margin: 0 auto;
 		margin-bottom: 2px;
 		background-color: rgb(200, 200, 200);
-		border: solid 1px black;
+		border: solid 1px rgb(0, 0, 0);
 	}
 
 	.buttons {
 		margin: 0 auto;
-		border: solid 1px black;
 		text-align: center;
 		width: 90%;
 
@@ -173,11 +306,43 @@
 		position: relative;
 	}
 
-	button {
+	.controls {
 		width: 160px;
 		height: 100px;
 	}
+
+	#connect {
+		width : 50%;
+		height: 80px;
+		display: block;
+		margin: 0px auto;
+		margin-top: 1px;
+	}
+
+	input {
+		width: 85%;
+		margin-right: 2px;
+		display: inline;
+		float: right;
+	}
+
+	label {
+		width: auto;
+		margin: 0px auto;
+		margin-left: 2px;
+		display: inline;
+		float: left;
+	}
+
+	#send {
+		float: right;
+		margin-top: 2px;
+		margin-right: 0px;
+		clear: right;
+	}
 }
+
+/*screen width 300-599px*/
 
 @media screen and (min-width:300px) and (max-width: 599px){
 	#video {
@@ -186,14 +351,14 @@
 		margin: 0 auto;
 		margin-bottom: 2px;
 		background-color: rgb(200, 200, 200);
-		border: solid 1px black;
+		border: solid 1px rgb(0, 0, 0);
 	}
 
 	.buttons {
 		margin: 0 auto;
-		border: solid 1px black;
+		/*border: solid 1px rgb(0, 0, 0);*/
 		text-align: center;
-		width: 100%;
+		width: 280px;
 
 	}
 
@@ -209,8 +374,39 @@
 		display: inline-block;
 	}
 
-	button {
+	.controls {
 		width: 90px;
 		height: 50px;
+	}
+
+	#connect {
+	width : 100%;
+	height: 80px;
+	margin-top: 1px;
+	float: right;
+	display: block;
+	
+	}
+
+	input {
+		width: 85%;
+		margin-right: 2px;
+		display: inline;
+		float: right;
+	}
+
+	label {
+		width: auto;
+		margin: 0px auto;
+		margin-left: 2px;
+		display: inline;
+		float: left;
+	}
+
+	#send {
+		float: right;
+		margin-top: 2px;
+		margin-right: 0px;
+		clear: right;
 	}
 }

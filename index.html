@@ -8,13 +8,21 @@
 	<div id="video"></div>
 	<div class="buttons">
 		<ul>
-			<li><button type="button">1</button></li>
-			<li><button type="button">1</button></li>
-			<li><button type="button">1</button></li>
-			<li><button type="button">1</button></li>
-			<li><button type="button">1</button></li>
-			<li><button type="button">1</button></li>
+			<li><button class="controls" type="button">1</button></li>
+			<li><button class="controls" type="button">1</button></li>
+			<li><button class="controls" type="button">1</button></li>
+			<li><button class="controls" type="button">1</button></li>
+			<li><button class="controls" type="button">1</button></li>
+			<li><button class="controls" type="button">1</button></li>
 		</ul>
 	</div>
+	<form id="connect" method="post">
+		<label for="ip">IP:</label>
+		<input type="text" id="ip" />
+		<br />
+		<label for="port">Port:</label>
+		<input type="text" id="port" />
+		<button id="send" type="submit">Send</button>
+	</form>
 </body>
 </html>
